@@ -110,8 +110,7 @@ const updateUI = async () => {
 /* Function called by event listener */
 function performAction() {
     const newZip = document.getElementById('zip').value;
-    getWeather(baseURL, newZip, process.env.API_KEY)
-        // getWeather(baseURL, newZip, config.API_KEY)
+    getWeather(baseURL, newZip, config.API_KEY)
         .then(getProjectData)
         .then(updateUI)
 }
