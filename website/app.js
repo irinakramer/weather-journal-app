@@ -17,8 +17,6 @@
  * 
 */
 
-// require env var
-require('dotenv').config();
 
 // Create a new date instance dynamically with JS
 let d = new Date();
